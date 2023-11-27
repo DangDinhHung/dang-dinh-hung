@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import './tailwind.css';
+@import "./tailwind.css";
+@import "./section-1.css";
 
 .h-12rem {
   height: 26rem;

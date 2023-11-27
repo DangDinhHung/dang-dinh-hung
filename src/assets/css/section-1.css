@@ -1,0 +1,41 @@
+/* common */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container-bnf {
+  padding: 50px 10rem;
+}
+.benefit {
+  display: flex;
+  justify-content: space-between;
+}
+.benefit > h2.title {
+  position: relative;
+  width: 428px;
+  color: #1f2c40;
+  font-size: 36px;
+  font-weight: 700;
+}
+.benefit > h2.title::before {
+  position: absolute;
+  content: "";
+  width: 186px;
+  height: 4px;
+  background: #e03116;
+}
+.benefit .benefit-list {
+  display: grid;
+  grid-template-columns: repeat(2, 273px);
+  gap: 88px;
+}
+.benefit .benefit-item > .title {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: 400;
+}
+.benefit .benefit-item > .desc {
+  font-size: 18px;
+  font-weight: 100;
+}

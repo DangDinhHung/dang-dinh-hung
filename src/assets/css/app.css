@@ -3,7 +3,14 @@
 @tailwind utilities;
 
 @import "./tailwind.css";
+@import "./header.css";
 @import "./section-1.css";
+
+.container {
+  padding: 0 50px;
+  width: 1110px;
+  margin: 0 auto;
+}
 
 .h-12rem {
   height: 26rem;

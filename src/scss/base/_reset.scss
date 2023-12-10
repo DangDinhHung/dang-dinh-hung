@@ -93,9 +93,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
-
 article,
 aside,
 details,
@@ -109,21 +107,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -131,54 +125,7 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
-/* Base */
-
-*,
-::after,
-::before {
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-button {
-  background: transparent;
-  outline: none;
-  border: none;
-}
-
-button,
-a,
-input,
-textarea,
-select {
-  font-family: inherit;
-  font-size: inherit;
-}
-
-/* Button */
-
-.btn {
-  /* CSS */
-  /* tailwind css */
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.btn-primary {
-  background: red;
-}
-
-/*# sourceMappingURL=tailwind.css.map */

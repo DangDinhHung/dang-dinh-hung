@@ -1,0 +1,17 @@
+@use "../abstracts";
+
+/* Button */
+
+.btn {
+  /* CSS 
+    width: 245px;
+    height: 50px;
+    padding: 10px 20px;
+    background: blue;
+    */
+  /* tailwind css */
+  @apply py-5 px-10 bg-black text-white text-inherit;
+  &-primary {
+    background: abstracts.$primary-color;
+  }
+}

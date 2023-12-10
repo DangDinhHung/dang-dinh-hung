@@ -1,0 +1,25 @@
+/* Base */
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: transparent;
+  outline: none;
+  border: none;
+}
+
+button,
+a,
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}

@@ -3,6 +3,8 @@
     "tailwindcss": "^3.3.5"
   },
   "scripts": {
-    "tw": "tailwindcss -i ./src/assets/css/app.css -o ./src/assets/css/tailwind.css --watch"
-  }
+    "tw": "tailwindcss -i ./src/assets/css/tailwind.css -o ./src/assets/css/main.css  --watch",
+    "start": "sass ./src/scss:./src/assets/css -w"
+  },
+  "dependencies": {}
 }
